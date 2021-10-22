@@ -393,6 +393,9 @@ html {
   transition-duration: 0.3s;
   position: relative;
   width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content; 
+  width: -o-fit-content;
   margin: auto;
 }
 .about .container .boxes .box .text a:hover {
