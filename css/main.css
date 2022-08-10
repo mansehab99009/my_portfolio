@@ -1000,6 +1000,11 @@ body::-webkit-scrollbar-thumb {
   white-space: nowrap;
   padding: 0 10px 0 0;
 }
+@media (max-width: 500px) {
+  .animated-name {
+    font-size: 12vw !important;
+  }
+}
 @keyframes blink {
   0% {
     border-right-color: transparent;
